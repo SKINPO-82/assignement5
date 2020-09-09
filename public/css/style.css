@@ -1,0 +1,56 @@
+
+body {
+    font-family: PT Sans;
+}
+
+.spacey-card{
+    background-image: url(./img/benz.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(220, 127, 20);
+    border: 1px solid grey;
+    text-align: left;
+    border-radius: 9px;
+    padding: 5px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    animation-name:noble;
+    animation-duration: 4s;
+    box-shadow: 10px 10px 5px grey;
+    color:white;
+    font-size: 20px;
+
+}
+@keyframes noble{
+
+    0%{
+        opacity: 0;
+        
+
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-70%);
+    }
+
+
+
+
+
+}
+
+.outer-guard{
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px ;
+}
+
+h4{
+    text-align: center;
+}
